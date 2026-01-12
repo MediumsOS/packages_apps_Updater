@@ -1,6 +1,6 @@
 #!/bin/sh
 
-updates_dir=/data/lineageos_updates
+updates_dir=/data/mediumsos_updates
 
 # $1 = ZIP
 # $2 = UNVERIFIED (optional)
@@ -9,7 +9,7 @@ if [ ! -f "$1" ]; then
    echo "Usage: $0 ZIP [UNVERIFIED] [SERIAL]"
    echo "Push ZIP to $updates_dir and add it to Updater"
    echo
-   echo "The name of ZIP is assumed to have lineage-VERSION-DATE-TYPE-* as format"
+   echo "The name of ZIP is assumed to have mediumsos-VERSION-DATE-TYPE-* as format"
    echo "If UNVERIFIED is set, the app will verify the update"
    exit
 fi
